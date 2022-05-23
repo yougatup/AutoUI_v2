@@ -1,0 +1,15 @@
+.taskInput {
+  width: 100%;
+  height: 100px;
+  background-color: lightgray;
+  box-sizing: border-box;
+}
+
+.taskInputBox {
+  height: 80%;
+  width: 80%;
+  background-color: yellow;
+  box-sizing: border-box;
+  margin-top: 10%;
+  margin-left: 10%;
+}
