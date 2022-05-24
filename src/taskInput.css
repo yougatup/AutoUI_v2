@@ -1,15 +1,38 @@
 .taskInput {
+  display: relative;
   width: 100%;
-  height: 100px;
+  height: 200px;
   background-color: lightgray;
   box-sizing: border-box;
+  overflow: auto;
 }
 
-.taskInputBox {
-  height: 80%;
-  width: 80%;
-  background-color: yellow;
+.myTaskInputBox {
+  display: absolute;
+  background-color: white;
   box-sizing: border-box;
-  margin-top: 10%;
-  margin-left: 10%;
+  border: 1px solid black;
+  margin: 20px;
+  height: calc(100% - 40px);
+  width: calc(100% - 40px);
+  border-radius: 20px;
+}
+
+.myTaskInputTextArea {
+  height: 90%;
+  width: 90%;
+  border: 0px;
+  border: none;
+  overflow: auto;
+  outline: none;
+
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+
+  resize: none; /*remove the resize handle on the bottom right*/
+
+  font-size: 20px;
+  margin-top: 5px;
+
 }

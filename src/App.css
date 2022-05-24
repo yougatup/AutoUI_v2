@@ -67,23 +67,9 @@ html, body, #root, .App {
   float: right;
 }
 
-.UIPlane {
-  background-color: rgb(181, 247, 181);
-  width: 100%;
-  height: 70%;
-  box-sizing: border-box;
-}
-
 .tablePlane{
   background-color: rgb(177, 220, 247);
   width: 100%;
   height: 30%;
-  box-sizing: border-box;
-}
-
-.taskList {
-  width: 100%;
-  height: calc(100% - 200px);
-  background-color: lightyellow;
   box-sizing: border-box;
 }

@@ -1,0 +1,7 @@
+.UIPlane {
+  background-color: rgb(181, 247, 181);
+  width: 100%;
+  height: 70%;
+  box-sizing: border-box;
+  overflow: hidden;
+}

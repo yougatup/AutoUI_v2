@@ -1,0 +1,6 @@
+.taskList {
+  width: 100%;
+  height: calc(100% - 200px);
+  background-color: lightyellow;
+  box-sizing: border-box;
+}
